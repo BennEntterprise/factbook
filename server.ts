@@ -11,7 +11,7 @@ app.use('/api/testapi', (req:any, res:any)=> {
 })
 
 app.get('*', (req:any, res:any)=>{
-    res.sendFile(path.join(__dirname, '/clientn/build/index.html'))
+    res.sendFile(path.join(__dirname, '/client/build/index.html'))
 })
 
 const PORT = process.env.PORT  || 5000
