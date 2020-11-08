@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
 
   useEffect(()=>{
-    axios.get('http://localhost:39601/api/testapi')
+    axios.get('http://localhost:5000/api/testapi')
       .then((res:any) => console.log(res))
       .catch((err:any) => console.error(err))
   },[])
