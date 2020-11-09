@@ -1,6 +1,6 @@
-# Build Files
-server/build
-
+# Ignore The JS Files since this is a Typescript project and 
+# *.js files will be inserted along the ts files during the build. 
+**/**/*.js
 
 # Logs
 logs

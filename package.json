@@ -8,9 +8,9 @@
   },
   "scripts": {
     "dev": "concurrently \"npm run dev-server\"  \"npm run dev-client\"",
-    "dev-server": "nodemon server/build/server/index.js",
+    "dev-server": "nodemon index.js",
     "dev-client": "npm start --prefix client",
-    "start": "node server/build/server/index.js",
+    "start": "node index.js",
     "build-server": "tsc",
     "build-client": "npm run build --prefix client",
     "heroku-postbuild": "concurrently \"npm run build-server\" \"cd client && npm install && npm run build\"",

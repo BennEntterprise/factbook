@@ -3,10 +3,10 @@
     "target": "ES6",
     "module": "CommonJS",
     "rootDir": "./",
-    "outDir": "./server/build",
+    "outDir": "./",
     "esModuleInterop": true,
     "strict": true
   },
-  "include": ["server/**/*"],
-  "exclude": ["server/build"]
+  "files": ["index.ts", "models/User.ts"],
+  "exclude": ["client"]
 }
