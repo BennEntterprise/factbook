@@ -1,3 +1,7 @@
+# Build Files
+server/build
+
+
 # Logs
 logs
 *.log
